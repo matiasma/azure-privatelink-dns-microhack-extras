@@ -10,7 +10,7 @@ The goal of this exercise is to understand how to work with route table to send 
 
 ## Task 1 : Create Azure Firewall and Route Table to inspect private endpoint traffic from a Virtual Machine (this task can also solve the Challange 7)
 
-Run the folloing command from Azure Cloud Shell
+Run the following command from Azure Cloud Shell (requires the default Azure Private Link DNS Microhack environment on your subscription)
 
 `curl https://raw.githubusercontent.com/matiasma/azure-privatelink-dns-microhack-extras/main/azure-private-link-microhack-firewall-challenge8.sh | bash`
 

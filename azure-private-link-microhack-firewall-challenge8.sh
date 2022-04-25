@@ -12,8 +12,8 @@ spokevnetname=spoke-vnet
 hubdnssubnetname=DNSSubnet
 spokeinfrasubnetname=InfrastructureSubnet
 # az cli azure-firewall extension
-az config set extension.use_dynamic_install=yes_without_prompt
 az extension add --name azure-firewall
+az config set extension.use_dynamic_install=yes_without_prompt
 # create Log Analytics Workspace
 az monitor log-analytics workspace create -g $resourcegroup -n $loganalyticsname
 loganalyticsid=$(az monitor log-analytics workspace show  -g $resourcegroup --workspace-name $loganalyticsname --query id -o tsv)

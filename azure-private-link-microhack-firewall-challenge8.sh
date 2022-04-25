@@ -11,6 +11,8 @@ hubvnetname=hub-vnet
 spokevnetname=spoke-vnet
 hubdnssubnetname=DNSSubnet
 spokeinfrasubnetname=InfrastructureSubnet
+# to allow installing extensions without prompt
+az config set extension.use_dynamic_install=yes_without_prompt
 # create Log Analytics Workspace
 az monitor log-analytics workspace create -g $resourcegroup -n $loganalyticsname
 loganalyticsid=$(az monitor log-analytics workspace show  -g $resourcegroup --workspace-name $loganalyticsname --query id -o tsv)

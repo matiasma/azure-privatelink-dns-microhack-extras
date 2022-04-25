@@ -1,6 +1,6 @@
 # **Azure Private Link DNS MicroHack - Challenge 8**
 
-This is an extra challenge for those who are running the "Azure Private Link DNS MicroHack" from Adam Stuart https://github.com/adstuart/azure-privatelink-dns-microhack
+This challenge requires the "Azure Private Link DNS MicroHack" environment up and running (https://github.com/adstuart/azure-privatelink-dns-microhack)
 
 # Challenge 8 : Use Azure Firewall to inspect traffic destined to a private endpoint
 
@@ -8,11 +8,11 @@ This is an extra challenge for those who are running the "Azure Private Link DNS
 
 The goal of this exercise is to understand how to work with route table to send private link traffic to a Firewall 
 
-## Task 1 : Create Azure Firewall and Route Table to inspect private endpoint traffic from a Virtual Machine
+## Task 1 : Create Azure Firewall and Route Table to inspect private endpoint traffic from a Virtual Machine (this task can also solve the Challange 7)
 
 Run the folloing command from Azure Cloud Shell
 
-`azure-private-link-microhack-firewall-challenge8.sh`
+`curl https://raw.githubusercontent.com/matiasma/azure-privatelink-dns-microhack-extras/main/azure-private-link-microhack-firewall-challenge8.sh | bash`
 
 Reference: https://docs.microsoft.com/en-us/azure/private-link/inspect-traffic-with-azure-firewall
 

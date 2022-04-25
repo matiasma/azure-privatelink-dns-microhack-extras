@@ -6,7 +6,7 @@ This challenge requires the "Azure Private Link DNS MicroHack" environment up an
 
 ### Goal 
 
-The goal of this exercise is to understand how to work with route table to send private link traffic to a Firewall 
+The goal of this exercise is to understand how to work with route table and network policy to inspect private link traffic by a Firewall 
 
 ## Task 1 : Create Azure Firewall and Route Table to inspect private endpoint traffic from a Virtual Machine (this task can also solve the Challange 7)
 
